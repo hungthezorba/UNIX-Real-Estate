@@ -73,3 +73,14 @@ INSERT INTO `admin` (`aid`, `auser`, `aemail`, `apass`, `adob`, `aphone`) VALUES
 (9, 'admin', 'admin@gmail.com', 'admin', '1999-12-06', '9878786545');
 
 -- --------------------------------------------------------
+
+--
+-- Table structure for table `city`
+--
+
+DROP TABLE IF EXISTS `city`;
+CREATE TABLE `city` (
+  `cid` int(50) NOT NULL,
+  `cname` varchar(100) NOT NULL,
+  `sid` int(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
