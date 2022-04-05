@@ -84,3 +84,12 @@ CREATE TABLE `city` (
   `cname` varchar(100) NOT NULL,
   `sid` int(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `city`
+--
+
+INSERT INTO `city` (`cid`, `cname`, `sid`) VALUES
+(9, 'ho chi minh city', 3),
+(10, 'hanoi', 2),
+(11, 'da nang city', 2);
