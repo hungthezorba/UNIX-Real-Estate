@@ -227,3 +227,18 @@ INSERT INTO `state` (`sid`, `sname`) VALUES
 (15, 'can gio');
 
 -- --------------------------------------------------------
+
+--
+-- Table structure for table `user`
+--
+
+DROP TABLE IF EXISTS `user`;
+CREATE TABLE `user` (
+  `uid` int(50) NOT NULL,
+  `uname` varchar(100) NOT NULL,
+  `uemail` varchar(100) NOT NULL,
+  `uphone` varchar(20) NOT NULL,
+  `upass` varchar(50) NOT NULL,
+  `utype` varchar(50) NOT NULL,
+  `uimage` varchar(300) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
