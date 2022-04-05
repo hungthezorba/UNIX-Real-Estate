@@ -147,3 +147,41 @@ INSERT INTO `feedback` (`fid`, `uid`, `fdescription`, `status`, `date`) VALUES
 (6, 24, 'Early this year, I relocated to Da Nang City from Japan, and I searched online for a good flat for rent in the Andheri region. Thank you, DuyHungMinh, for providing me with so many time search alternatives.\r\n', 0, '2022-02-10');
 
 -- --------------------------------------------------------
+
+--
+-- Table structure for table `property`
+--
+
+DROP TABLE IF EXISTS `property`;
+CREATE TABLE `property` (
+  `pid` int(50) NOT NULL,
+  `title` varchar(200) NOT NULL,
+  `pcontent` longtext NOT NULL,
+  `type` varchar(100) NOT NULL,
+  `bhk` varchar(50) NOT NULL,
+  `stype` varchar(100) NOT NULL,
+  `bedroom` int(50) NOT NULL,
+  `bathroom` int(50) NOT NULL,
+  `balcony` int(50) NOT NULL,
+  `kitchen` int(50) NOT NULL,
+  `hall` int(50) NOT NULL,
+  `floor` varchar(50) NOT NULL,
+  `size` int(50) NOT NULL,
+  `price` int(50) NOT NULL,
+  `location` varchar(200) NOT NULL,
+  `city` varchar(100) NOT NULL,
+  `state` varchar(100) NOT NULL,
+  `feature` longtext NOT NULL,
+  `pimage` varchar(300) NOT NULL,
+  `pimage1` varchar(300) NOT NULL,
+  `pimage2` varchar(300) NOT NULL,
+  `pimage3` varchar(300) NOT NULL,
+  `pimage4` varchar(300) NOT NULL,
+  `uid` int(50) NOT NULL,
+  `status` varchar(50) NOT NULL,
+  `mapimage` varchar(300) NOT NULL,
+  `topmapimage` varchar(300) NOT NULL,
+  `groundmapimage` varchar(300) NOT NULL,
+  `totalfloor` varchar(50) NOT NULL,
+  `date` datetime NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
