@@ -115,9 +115,22 @@ CREATE TABLE `contact` (
 --
 
 INSERT INTO `contact` (`cid`, `name`, `email`, `phone`, `subject`, `message`) VALUES
-(2, 'demo', 'demo@gmail.com', '9765989689', 'demo', 'demo'),
-(4, 'test', 'test@gmail.com', '7976976979', 'test', 'test'),
-(5, 'final', 'final@gmail.com', '7697967967', 'final', 'final'),
-(6, 'disha', 'disha@gmail.com', '7898797696', 'demo', 'demo');
+(2, 'duy', 'duyhs123@gmail.com', '1231233421', 'duy', 'duy'),
+(4, 'minh', 'bietdoikiem@gmail.com', '314243123', 'minh', 'minh'),
+(5, 'hung', 'hungthezorba@gmail.com', '617281929', 'hung', 'hung'),
+(6, 'duy', 'duyhs123@gmail.com', '1231233421', 'duy', 'duy');
 
 -- --------------------------------------------------------
+
+--
+-- Table structure for table `feedback`
+--
+
+DROP TABLE IF EXISTS `feedback`;
+CREATE TABLE `feedback` (
+  `fid` int(50) NOT NULL,
+  `uid` int(50) NOT NULL,
+  `fdescription` varchar(300) NOT NULL,
+  `status` int(1) NOT NULL,
+  `date` date NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
