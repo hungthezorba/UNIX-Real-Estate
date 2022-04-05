@@ -109,3 +109,15 @@ CREATE TABLE `contact` (
   `subject` varchar(100) NOT NULL,
   `message` varchar(250) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `contact`
+--
+
+INSERT INTO `contact` (`cid`, `name`, `email`, `phone`, `subject`, `message`) VALUES
+(2, 'demo', 'demo@gmail.com', '9765989689', 'demo', 'demo'),
+(4, 'test', 'test@gmail.com', '7976976979', 'test', 'test'),
+(5, 'final', 'final@gmail.com', '7697967967', 'final', 'final'),
+(6, 'disha', 'disha@gmail.com', '7898797696', 'demo', 'demo');
+
+-- --------------------------------------------------------
