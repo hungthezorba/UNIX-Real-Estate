@@ -242,3 +242,17 @@ CREATE TABLE `user` (
   `utype` varchar(50) NOT NULL,
   `uimage` varchar(300) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`uid`, `uname`, `uemail`, `uphone`, `upass`, `utype`, `uimage`) VALUES
+(14, 'admin', 'admin@gmail.com', '15235621421', 'admin', 'user', '3.jpg'),
+(15, 'duy', 'duya@gmail.com', '1243214123', 'duy', 'agent', '2.jpg'),
+(16, 'minh', 'minhas@gmail.com', '1028492712', 'minh', 'user', '1.jpg'),
+(21, 'hung', 'hungga@gmail.com', '123524421', 'hungga', 'agent', '2.jpg'),
+(22, 'someone', 'someone@gmail.com', '232132132', 'someone', 'agent', '1.jpg'),
+(23, 'wowww', 'wowwww@gmail.com', '213213213', 'wowww', 'builder', '1.jpg'),
+(24, 'help', 'help@gmail.com', '21321321', 'help', 'builder', '3.jpg'),
+(25, 'final', 'final@gmail.com', '213213222', 'final', 'builder', 'avatar-3.jpg');
