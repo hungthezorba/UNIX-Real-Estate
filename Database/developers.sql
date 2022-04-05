@@ -134,3 +134,16 @@ CREATE TABLE `feedback` (
   `status` int(1) NOT NULL,
   `date` date NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `feedback`
+--
+
+INSERT INTO `feedback` (`fid`, `uid`, `fdescription`, `status`, `date`) VALUES
+(2, 15, 'DuyHungMinh simplified my life. It aided me in my quest for my first investment, a one-bedroom flat in Nguyen Hue street. Thank you for offering useful tools like the EMI calculator and quick search.\r\n', 1, '2022-04-05'),
+(3, 18, 'I am a young professional, and DuyHungMinh search assisted me in narrowing down my house options in Ho Chi Minh City. I discovered what kind of property will cost me how much and what kinds of features I will receive.', 1, '2022-04-06'),
+(4, 21, 'I was looking for a flat in Hanoi, and the DuyHungMinh website made it easy for me to find one. Not only could I pick the property, but I could also read what others had to say about the location. The website is straightforward and easy to navigate.\r\n', 1, '2022-03-25'),
+(5, 23, 'The ongoing contact via other legitimate calls astounded me. They dispatched an officer to obtain pictures of my store and swiftly uploaded all of the images, assisting me in quickly obtaining a renter. DuyHungMinh deserves a pat on the back.\r\n', 1, '2022-04-08'),
+(6, 24, 'Early this year, I relocated to Da Nang City from Japan, and I searched online for a good flat for rent in the Andheri region. Thank you, DuyHungMinh, for providing me with so many time search alternatives.\r\n', 0, '2022-02-10');
+
+-- --------------------------------------------------------
