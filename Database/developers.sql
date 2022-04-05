@@ -46,3 +46,17 @@ INSERT INTO `about` (`id`, `title`, `content`, `image`) VALUES
 (10, 'About Our Company', '<div id=\"pgc-w5d0dcc3394ac1-0-0\" class=\"panel-grid-cell\">\r\n<div id=\"panel-w5d0dcc3394ac1-0-0-0\" class=\"so-panel widget widget_sow-editor panel-first-child panel-last-child\" data-index=\"0\">\r\n<div class=\"so-widget-sow-editor so-widget-sow-editor-base\">\r\n<div class=\"siteorigin-widget-tinymce textwidget\">\r\n<p class=\"text_all_p_tag_css\">DuyHungMinh Real Estate is a Unique Real Estate Company dedicated to provide beautiful hourses, apartments, and rooms to all type of people. Located in beautiful country in Ho Chi Minh City (Vietnam).</p>\r\n<p class=\"text_all_p_tag_css\">DuyHungMinh Real Estate is a one stop solution for all your family needs. It provides full ranges of modern and beauty of real estate solutions, depending on your requirements of the room size, number of rooms, the interior design, furnitures, modern IoT, the surrouding outside such as convenient stores, parks, parking lots, etc. throughout the India.</p>\r\n<div id=\"pgc-w5d0dcc3394ac1-0-0\" class=\"panel-grid-cell\">\r\n<div id=\"panel-w5d0dcc3394ac1-0-0-0\" class=\"so-panel widget widget_sow-editor panel-first-child panel-last-child\" data-index=\"0\">\r\n<div class=\"so-widget-sow-editor so-widget-sow-editor-base\">\r\n<div class=\"siteorigin-widget-tinymce textwidget\">\r\n<p class=\"text_all_p_tag_css\">Right now, DuyHungMinh Real Estate has contributed and collaborated with more than 1500+ customers around Ho Chi Minh City, showing that we confidently bring all the best benefits to you.</p>\r\n<p class=\"text_all_p_tag_css\">Our team has 3 CEOs, including Vo Tran Truong Duy (handsome and talented CEO), Nguyen Pham Quoc Minh (handsome and hard-working CEO), and Nguyen Ngoc Dang Hung (playboy and genius CEO). No need to hesitate to buy or rent a new house or apartment today for your brighter future!!!</p>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>', 'condos-pool.png');
 
 -- --------------------------------------------------------
+
+--
+-- Table structure for table `admin`
+--
+
+DROP TABLE IF EXISTS `admin`;
+CREATE TABLE `admin` (
+  `aid` int(10) NOT NULL,
+  `auser` varchar(50) NOT NULL,
+  `aemail` varchar(50) NOT NULL,
+  `apass` varchar(50) NOT NULL,
+  `adob` date NOT NULL,
+  `aphone` varchar(15) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
