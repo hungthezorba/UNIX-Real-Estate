@@ -93,3 +93,19 @@ INSERT INTO `city` (`cid`, `cname`, `sid`) VALUES
 (9, 'ho chi minh city', 3),
 (10, 'hanoi', 2),
 (11, 'da nang city', 2);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `contact`
+--
+
+DROP TABLE IF EXISTS `contact`;
+CREATE TABLE `contact` (
+  `cid` int(50) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `phone` varchar(20) NOT NULL,
+  `subject` varchar(100) NOT NULL,
+  `message` varchar(250) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
