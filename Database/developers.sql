@@ -212,3 +212,18 @@ CREATE TABLE `state` (
   `sid` int(50) NOT NULL,
   `sname` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `state`
+--
+
+INSERT INTO `state` (`sid`, `sname`) VALUES
+(2, 'district 7'),
+(3, 'phu nhuan'),
+(4, 'thu duc'),
+(7, 'binh chanh'),
+(9, 'district 3'),
+(10, 'go vap'),
+(15, 'can gio');
+
+-- --------------------------------------------------------
