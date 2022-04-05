@@ -1,4 +1,5 @@
--- phpMyAdmin SQL Dump
+-- LAMP(Linux, Apache, MySQL & PHP)
+-- Real Estate application
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
@@ -20,3 +21,19 @@ SET time_zone = "+00:00";
 --
 -- Database: `developers`
 --
+CREATE DATABASE IF NOT EXISTS `developers` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `developers`;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `about`
+--
+
+DROP TABLE IF EXISTS `about`;
+CREATE TABLE `about` (
+  `id` int(10) NOT NULL,
+  `title` varchar(100) NOT NULL,
+  `content` longtext NOT NULL,
+  `image` varchar(300) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
