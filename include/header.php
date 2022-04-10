@@ -4,8 +4,8 @@
                     <div class="row">
                         <div class="col-md-8">
                             <ul class="top-contact list-text-white  d-table">
-                                <li><a href="#"><i class="fas fa-phone-alt text-primary mr-1"></i>(012) 345 678 102</a></li>
-                                <li><a href="#"><i class="fas fa-envelope text-primary mr-1"></i>office@example.com</a></li>
+                                <li><a href="#"><i class="fas fa-phone-alt text-primary mr-1"></i>(+84)092 428 2133</a></li>
+                                <li><a href="#"><i class="fas fa-envelope text-primary mr-1"></i>contact@duyhungminh.com</a></li>
                             </ul>
                         </div>
                         <div class="col-md-4">

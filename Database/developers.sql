@@ -131,8 +131,8 @@ CREATE TABLE `feedback` (
   `fid` int(50) NOT NULL,
   `uid` int(50) NOT NULL,
   `fdescription` varchar(300) NOT NULL,
-  `status` int(1) NOT NULL,
-  `date` date NOT NULL DEFAULT current_timestamp()
+  `status` int(10) NOT NULL,
+  `date` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --

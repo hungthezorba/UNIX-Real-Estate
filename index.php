@@ -179,13 +179,13 @@ include("config.php");
 								
                                     <div class="col-md-6 col-lg-4">
                                         <div class="featured-thumb hover-zoomer mb-4">
-                                            <div class="overlay-black overflow-hidden position-relative"> <img src="admin/property/<?php echo $row['18'];?>" alt="pimage">
+                                            <div class="overlay-black overflow-hidden position-relative"> <img class="property-card-img" src="admin/property/<?php echo $row['18'];?>" alt="pimage">
                                                 <div class="featured bg-primary text-white">New</div>
                                                 <div class="sale bg-secondary text-white text-capitalize">For <?php echo $row['5'];?></div>
                                                 <div class="price text-primary"><b>$<?php echo $row['13'];?> </b><span class="text-white"><?php echo $row['12'];?> Sqft</span></div>
                                             </div>
                                             <div class="featured-thumb-data shadow-one">
-                                                <div class="p-3">
+                                                <div class="p-3 address-location">
                                                     <h5 class="text-secondary hover-text-primary mb-2 text-capitalize"><a href="propertydetail.php?pid=<?php echo $row['0'];?>"><?php echo $row['1'];?></a></h5>
                                                     <span class="location text-capitalize"><i class="fas fa-map-marker-alt text-primary"></i> <?php echo $row['14'];?></span> </div>
                                                 <div class="bg-gray quantity px-4 pt-4">
@@ -450,8 +450,9 @@ include("config.php");
 									
 										<?php
 													
-												$query=mysqli_query($con,"select feedback.*, user.* from feedback,user where feedback.uid=user.uid and feedback.status='1'");
-												while($row=mysqli_fetch_array($query))
+												$query=mysqli_query($con,"select feedback.*, user.* from feedback,user where feedback.uid=user.uid and feedback.status=1");
+												// echo(mysqli_fetch_array($query));
+                                                while($row=mysqli_fetch_array($query))
 													{
 										?>
 										<div class="item">

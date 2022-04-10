@@ -110,22 +110,19 @@ if(isset($_POST['send']))
                                 <li class="d-flex mb-4"> <i class="fas fa-map-marker-alt text-white mr-2 font-13 mt-1"></i>
                                     <div class="contact-address">
                                         <h5 class="text-white">Address</h5>
-                                        <span class="text-secondary">Collins Street West, Victoria 8007, Australia</span> 
-										<span class="text-secondary">Collins Street West, Victoria 8007, Australia</span>
+                                        <span class="text-secondary span-color"><span class="text-secondary-color">01 Công xã Paris, Bến Nghé, Quận 1, Thành phố Hồ Chí Minh, Vietnam</span></span> 
 										</div>
                                 </li>
                                 <li class="d-flex mb-4"> <i class="fas fa-phone-alt text-white mr-2 font-13 mt-1"></i>
                                     <div class="contact-address">
                                         <h5 class="text-white">Call Us</h5>
-                                        <span class="d-table text-secondary">012 34 567 809</span>
-										<span class="text-secondary">012 34 567 809 </span>
+                                        <span class="d-table text-secondary"><span class="text-secondary-color">(+84)092 428 2133</span></span>
 									</div>
                                 </li>
                                 <li class="d-flex mb-4"> <i class="fas fa-envelope text-white mr-2 font-13 mt-1"></i>
                                     <div class="contact-address">
                                         <h5 class="text-white">Email Adderss</h5>
-										<span class="d-table text-secondary">helpline@homex.com</span>
-										<span class="text-secondary">helpline@homex.com</span>
+										<span class="d-table text-secondary span-color"><span class="text-secondary-color">contact@duyhungminh.com</span></span>
 										</div>
                                 </li>
                             </ul>
@@ -176,7 +173,7 @@ if(isset($_POST['send']))
         <!--	Contact Inforamtion -->
         
         <!--	Map -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29921.88989279091!2d72.89392697798161!3d20.373147326844283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0d1d69db97345%3A0x8bc4433aecadadfd!2sROFEL%20ARTS%20%26%20COMMERCE%20COLLEGE!5e0!3m2!1sen!2sin!4v1585740130321!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24094.469368886137!2d106.67106111586507!3d10.78118873173834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f37e6d82451%3A0xe84f59936ced5b45!2sNotre%20Dame%20Cathedral%20of%20Saigon!5e0!3m2!1sen!2shk!4v1649552426049!5m2!1sen!2shk" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 		<!--	Map -->
         
         <!--	Footer   start-->
