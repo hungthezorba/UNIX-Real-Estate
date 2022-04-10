@@ -2984,3 +2984,8 @@ form.subscribe {
 span .text-secondary-color {
 	color: #f2e9e1 !important;
 }
+
+.property-card-img {
+	width: 370px;
+	height: 260px;
+}
