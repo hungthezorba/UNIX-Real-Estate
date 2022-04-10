@@ -185,7 +185,7 @@ include("config.php");
                                                 <div class="price text-primary"><b>$<?php echo $row['13'];?> </b><span class="text-white"><?php echo $row['12'];?> Sqft</span></div>
                                             </div>
                                             <div class="featured-thumb-data shadow-one">
-                                                <div class="p-3">
+                                                <div class="p-3 address-location">
                                                     <h5 class="text-secondary hover-text-primary mb-2 text-capitalize"><a href="propertydetail.php?pid=<?php echo $row['0'];?>"><?php echo $row['1'];?></a></h5>
                                                     <span class="location text-capitalize"><i class="fas fa-map-marker-alt text-primary"></i> <?php echo $row['14'];?></span> </div>
                                                 <div class="bg-gray quantity px-4 pt-4">

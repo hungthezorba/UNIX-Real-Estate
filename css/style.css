@@ -2989,3 +2989,13 @@ span .text-secondary-color {
 	width: 370px;
 	height: 260px;
 }
+
+.address-location {
+	white-space: nowrap;
+}
+
+.address-location span {
+	display: block;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
