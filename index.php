@@ -450,8 +450,9 @@ include("config.php");
 									
 										<?php
 													
-												$query=mysqli_query($con,"select feedback.*, user.* from feedback,user where feedback.uid=user.uid and feedback.status='1'");
-												while($row=mysqli_fetch_array($query))
+												$query=mysqli_query($con,"select feedback.*, user.* from feedback,user where feedback.uid=user.uid and feedback.status=1");
+												// echo(mysqli_fetch_array($query));
+                                                while($row=mysqli_fetch_array($query))
 													{
 										?>
 										<div class="item">
