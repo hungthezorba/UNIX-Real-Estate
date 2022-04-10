@@ -2968,3 +2968,19 @@ form.subscribe {
 	display: none
 }
 }
+
+.featured-thumb .overlay-black {
+	border-radius: 4px 4px 0px 0px;
+}
+
+.featured-thumb .featured-thumb-data {
+	border-radius: 0px 0px 4px 4px;
+}
+
+.btn-primary {
+	border-radius: 4px;
+}
+
+span .text-secondary-color {
+	color: #f2e9e1 !important;
+}
