@@ -43,10 +43,10 @@
                                             <div class="footer-widget">
                                                 <h4 class="widget-title text-white double-down-line-left position-relative">Contact Us</h4>
                                                 <ul class="text-white">
-                                                    <li class="hover-text-primary"><i class="fas fa-map-marker-alt text-white mr-2 font-13 mt-1"></i>Collins Street West, Victoria 8007, Australia</li>
+                                                    <li class="hover-text-primary"><i class="fas fa-map-marker-alt text-white mr-2 font-13 mt-1"></i>702 Nguyen Van Linh Blv, District 7, HCMC, Vietnam</li>
                                                     <li class="hover-text-primary"> <i class="fas fa-phone-alt text-white mr-2 font-13 mt-1"></i>+1 246-345-0695</li>
 													<li class="hover-text-primary"> <i class="fas fa-phone-alt text-white mr-2 font-13 mt-1"></i>+1 246-345-0695</li>
-                                                    <li class="hover-text-primary"><i class="fas fa-envelope text-white mr-2 font-13 mt-1"></i>helpline@homex.com</li>
+                                                    <li class="hover-text-primary"><i class="fas fa-envelope text-white mr-2 font-13 mt-1"></i>helpline@dhm.com</li>
                                                 </ul>
                                             </div>
                                             <div class="footer-widget media-widget mt-4 text-white hover-text-primary"> <a href="#"><i class="fab fa-facebook-f"></i></a> <a href="#"><i class="fab fa-twitter"></i></a> <a href="#"><i class="fab fa-google-plus-g"></i></a> <a href="#"><i class="fab fa-linkedin-in"></i></a> <a href="#"><i class="fas fa-rss"></i></a> </div>
@@ -58,7 +58,7 @@
                     </div>
                 </div>
                 <div class="row copyright">
-                    <div class="col-sm-6"> <span class="text-white">© 2019 Homex All right reserved</span> </div>
+                    <div class="col-sm-6"> <span class="text-white">© 2022 DHM All right reserved</span> </div>
                     <div class="col-sm-6">
                         <ul class="line-menu text-white hover-text-primary float-right">
                             <li><a href="#">Privacy & Policy</a></li>

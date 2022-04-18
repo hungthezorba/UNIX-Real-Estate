@@ -62,7 +62,7 @@ if(isset($_REQUEST['login']))
 
 <!--	Title
 	=========================================================-->
-<title>Homex - Real Estate Template</title>
+<title>DHM - Real Estate</title>
 </head>
 <body>
 
