@@ -164,7 +164,7 @@ include("config.php");
                                 </div>
                                 <input type="text" class="form-control" name="interest" placeholder="Interest Rate">
                             </div>
-                            <button type="submit" value="submit" name="calc" class="btn btn-primary mt-4">Calclute Instalment</button>
+                            <button type="submit" value="submit" name="calc" class="btn btn-primary mt-4">Calculate Installment</button>
                         </form>
                         </div>
                         

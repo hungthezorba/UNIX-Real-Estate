@@ -14,11 +14,14 @@
 								<li><i class="fas fa-user text-primary mr-1"></i>
 								<?php  if(isset($_SESSION['uemail']))
 								{ ?>
-								<a href="logout.php">Logout</a>&nbsp;&nbsp;<?php } else { ?>
+								<a href="logout.php"><?php echo $_SESSION['uemail'] ?> | Logout</a>&nbsp;&nbsp;<?php } else { ?>
 								<a href="login.php">Login</a>&nbsp;&nbsp;
 								<?php } ?>
-								| </li>
+								 </li>
+               <?php if(!(isset($_SESSION['uemail'])))
+                { ?>
 								<li><i class="fas fa-user text-primary mr-1"></i><a href="register.php"> Register</li>
+                <?php } ?>
 								</ul>
                             </div>
                         </div>
@@ -37,7 +40,6 @@
 										
 										<li class="nav-item"> <a class="nav-link" href="about.php">About</a> </li>
 										
-										<li class="nav-item"> <a class="nav-link" href="agent.php">Agent</a> </li>
 										
 										<li class="nav-item"> <a class="nav-link" href="property.php">Properties</a> </li>
                                         <li class="nav-item"> <a class="nav-link" href="contact.php">Contact</a> </li>

@@ -167,7 +167,7 @@ include("config.php");
 					
                     <div class="col-lg-4">
                         <div class="sidebar-widget">
-                            <h4 class="double-down-line-left text-secondary position-relative pb-4 my-4">Instalment Calculator</h4>
+                            <h4 class="double-down-line-left text-secondary position-relative pb-4 my-4">Installment Calculator</h4>
 						<form class="d-inline-block w-100" action="calc.php" method="post">
                             <label class="sr-only">Property Amount</label>
                             <div class="input-group mb-2 mr-sm-2">
@@ -190,7 +190,7 @@ include("config.php");
                                 </div>
                                 <input type="text" class="form-control" name="interest" placeholder="Interest Rate">
                             </div>
-                            <button type="submit" value="submit" name="calc" class="btn btn-primary mt-4">Calclute Instalment</button>
+                            <button type="submit" value="submit" name="calc" class="btn btn-primary mt-4">Calculate Installment</button>
                         </form>
                         </div>
                         
