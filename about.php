@@ -15,7 +15,7 @@ include("config.php");
 
 <!-- Meta Tags -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Homex template">
+<meta name="description" content="DHM template">
 <meta name="keywords" content="">
 <meta name="author" content="Unicoder">
 <link rel="shortcut icon" href="images/favicon.ico">
@@ -36,7 +36,7 @@ include("config.php");
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
 <!-- Title -->
-<title>Homex - Real Estate Template</title>
+<title>DuyHungMinh - Real Estate</title>
 </head>
 <body>
 

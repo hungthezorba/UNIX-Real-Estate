@@ -14,22 +14,25 @@
 								<li><i class="fas fa-user text-primary mr-1"></i>
 								<?php  if(isset($_SESSION['uemail']))
 								{ ?>
-								<a href="logout.php">Logout</a>&nbsp;&nbsp;<?php } else { ?>
+								<a href="logout.php"><?php echo $_SESSION['uemail'] ?> | Logout</a>&nbsp;&nbsp;<?php } else { ?>
 								<a href="login.php">Login</a>&nbsp;&nbsp;
 								<?php } ?>
-								| </li>
+								 </li>
+               <?php if(!(isset($_SESSION['uemail'])))
+                { ?>
 								<li><i class="fas fa-user text-primary mr-1"></i><a href="register.php"> Register</li>
+                <?php } ?>
 								</ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="main-nav secondary-nav hover-primary-nav py-2">
+            <div class="main-nav secondary-nav hover-primary-nav py-1">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
-                            <nav class="navbar navbar-expand-lg navbar-light p-0"> <a class="navbar-brand position-relative" href="#"><img class="nav-logo" src="images/logo/logo.png" alt=""></a>
+                            <nav class="navbar navbar-expand-lg navbar-light p-0"> <a class="navbar-brand position-relative" href="index.php"><img class="nav-logo" src="images/logo/logo.png" width="100px" height="100px" alt=""></a>
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul class="navbar-nav mr-auto">
@@ -37,7 +40,6 @@
 										
 										<li class="nav-item"> <a class="nav-link" href="about.php">About</a> </li>
 										
-										<li class="nav-item"> <a class="nav-link" href="agent.php">Agent</a> </li>
 										
 										<li class="nav-item"> <a class="nav-link" href="property.php">Properties</a> </li>
                                         <li class="nav-item"> <a class="nav-link" href="contact.php">Contact</a> </li>
@@ -60,7 +62,7 @@
                                     </ul>
                                     
 									
-									<a class="btn btn-primary d-none d-xl-block" href="submitproperty.php">Submit Peoperty</a> 
+									<a class="btn btn-primary d-none d-xl-block" href="submitproperty.php">Submit Property</a> 
                                 </div>
                             </nav>
                         </div>
