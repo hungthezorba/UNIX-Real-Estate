@@ -220,7 +220,7 @@ include("config.php");
 		<!--	Recent Properties  -->
         
         <!--	Why Choose Us -->
-        <div class="full-row living bg-one overlay-secondary-half" style="background-image: url('images/haddyliving.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+        <div class="full-row living bg-one overlay-secondary-half" style="background-image: url('images/collab.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-lg-6">
@@ -297,7 +297,7 @@ include("config.php");
         
         <!--	Achievement
         ============================================================-->
-        <div class="full-row overlay-secondary" style="background-image: url('images/counterbg.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
+        <div class="full-row overlay-secondary" style="background-image: url('images/jump.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;">
             <div class="container">
                 <div class="fact-counter">
                     <div class="row">
