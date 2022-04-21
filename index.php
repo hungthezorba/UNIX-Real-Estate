@@ -376,14 +376,14 @@ include("config.php");
                             <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/1.jpg" alt="">
                                 <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
 									<?php
-										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where state='gujarat'");
+										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where state='District 4'");
 											while($row=mysqli_fetch_array($query))
 												{
 										?>
                                     <h4 class="hover-text-primary text-capitalize"><a href="stateproperty.php?id=<?php echo $row['17']?>"><?php echo $row['state'];?></a></h4>
                                     <span><?php 
 												$total = $row[0];
-												echo $total;?> Properties Listed</span> </div>
+												echo $total;?> Properties Listed in District 4</span> </div>
 									<?php } ?>
                             </div>
                         </div>
@@ -391,14 +391,14 @@ include("config.php");
                             <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/2.jpg" alt="">
                                 <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
 									<?php
-										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where state='mumbai'");
+										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where state='District 7'");
 											while($row=mysqli_fetch_array($query))
 												{
 										?>
                                     <h4 class="hover-text-primary text-capitalize"><a href="stateproperty.php?id=<?php echo $row['17']?>"><?php echo $row['state'];?></a></h4>
                                     <span><?php 
 												$total = $row[0];
-												echo $total;?> Properties Listed</span> </div>
+												echo $total;?> Properties Listed in District 7</span> </div>
 									<?php } ?>
                             </div>
                         </div>
@@ -406,14 +406,14 @@ include("config.php");
                             <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/3.jpg" alt="">
                                 <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
                                     <?php
-										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where state='banglore'");
+										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where state='District 1'");
 											while($row=mysqli_fetch_array($query))
 												{
 										?>
                                     <h4 class="hover-text-primary text-capitalize"><a href="stateproperty.php?id=<?php echo $row['17']?>"><?php echo $row['state'];?></a></h4>
                                     <span><?php 
 												$total = $row[0];
-												echo $total;?> Properties Listed</span> </div>
+												echo $total;?> Properties Listed in District 1</span> </div>
 									<?php } ?>
                             </div>
                         </div>
@@ -421,14 +421,14 @@ include("config.php");
                             <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/4.jpg" alt="">
                                 <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
                                     <?php
-										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where state='rajasthan'");
+										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where state='District 8'");
 											while($row=mysqli_fetch_array($query))
 												{
 										?>
                                     <h4 class="hover-text-primary text-capitalize"><a href="stateproperty.php?id=<?php echo $row['17']?>"><?php echo $row['state'];?></a></h4>
                                     <span><?php 
 												$total = $row[0];
-												echo $total;?> Properties Listed</span> </div>
+												echo $total;?> Properties Listed in District 8</span> </div>
 									<?php } ?>
                             </div>
                         </div>
